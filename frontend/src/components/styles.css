@@ -1,0 +1,52 @@
+.fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toast-success {
+  background-color: rgb(20, 83, 45);
+  border: 1px solid rgb(6, 78, 59);
+  color: rgb(220, 252, 231);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toast-error {
+  background-color: rgb(127, 29, 29);
+  border: 1px solid rgb(185, 28, 28);
+  color: rgb(254, 226, 226);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.toast-info {
+  background-color: rgb(30, 58, 138);
+  border: 1px solid rgb(37, 99, 235);
+  color: rgb(219, 234, 254);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
